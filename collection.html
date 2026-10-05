@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shop All — Quiet Khaos</title>
+<meta name="description" content="Shop the Quiet Khaos collection — hoodies, tees and beanies.">
+<meta name="theme-color" content="#0e0d0c">
+<meta property="og:title" content="Shop All — Quiet Khaos">
+<meta property="og:description" content="Shop the Quiet Khaos collection — hoodies, tees and beanies.">
+<meta property="og:image" content="assets/img/og-image.webp">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="collection" class="has-announce">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="announce" role="region" aria-label="Announcements">
+  <div class="announce__track">
+    <span>Drop 01 — The Burning Rose is live</span><span>Free shipping on orders over $100</span><span>Limited runs. No restocks.</span><span>Easy 30-day returns</span><span>Drop 01 — The Burning Rose is live</span><span>Free shipping on orders over $100</span><span>Limited runs. No restocks.</span><span>Easy 30-day returns</span>
+  </div>
+</div>
+<header class="header">
+  <div class="wrap header__inner">
+    <div class="header__left">
+      <button class="icon-btn header__menu-btn" type="button" data-open-menu aria-label="Open menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h12M3 17h18"/></svg></button>
+      <nav class="header__nav" aria-label="Primary">
+        <a href="collection.html" aria-current="page">Shop All</a>
+        <a href="collection.html?c=hoodies">Hoodies</a>
+        <a href="collection.html?c=tees">Tees</a>
+        <a href="collection.html?c=beanies">Beanies</a>
+      </nav>
+    </div>
+    <a class="header__logo" href="index.html" aria-label="Quiet Khaos — home">
+      <img class="logo-black" src="assets/img/logo-black.webp" alt="Quiet Khaos" width="1152" height="140">
+      <img class="logo-white" src="assets/img/logo-white.webp" alt="" width="1152" height="140">
+    </a>
+    <div class="header__right">
+      <a class="icon-btn" href="collection.html" aria-label="Search the collection"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></a>
+      <button class="icon-btn" type="button" data-open-cart aria-label="Open bag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 12.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8L5 8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg><span class="cart-count" aria-live="polite">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop" aria-hidden="true"></div>
+
+<aside class="menu" aria-label="Menu" aria-hidden="true">
+  <div class="menu__top">
+    <img src="assets/img/logo-white.webp" alt="Quiet Khaos" width="1152" height="140">
+    <button class="icon-btn" type="button" data-close aria-label="Close menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <nav class="menu__links" aria-label="Mobile">
+    <a href="collection.html">Shop All <small>10</small></a>
+    <a href="collection.html?c=hoodies">Hoodies <small>03</small></a>
+    <a href="collection.html?c=tees">Tees <small>02</small></a>
+    <a href="collection.html?c=beanies">Beanies <small>05</small></a>
+    <a href="index.html#story">Our Story <small>—</small></a>
+  </nav>
+  <a class="menu__feature" href="product.html?p=burning-rose-hoodie">
+    <img src="assets/img/hoodie-burning-rose-ash-sm.webp" alt="" width="560" height="560" loading="lazy">
+    <div><span class="eyebrow">New in</span><p>Burning Rose Hoodie</p></div>
+  </a>
+  <div class="menu__social"><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Pinterest</a></div>
+</aside>
+
+<aside class="cart" aria-label="Shopping bag" aria-hidden="true">
+  <div class="cart__head">
+    <h2>Your Bag <span>(0)</span></h2>
+    <button class="icon-btn" type="button" data-close aria-label="Close bag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <div class="cart__ship" hidden></div>
+  <div class="cart__body"></div>
+  <div class="cart__foot" hidden>
+    <div class="cart__row"><span>Subtotal</span><strong class="cart__total">$0</strong></div>
+    <p class="cart__note">Taxes and shipping calculated at checkout.</p>
+    <a class="btn btn--block" href="checkout.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="10" rx="1"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg> Checkout</a>
+    <button class="btn btn--ghost btn--block" type="button" data-close>Keep shopping</button>
+  </div>
+</aside>
+
+<div class="toast" role="status" aria-live="polite"></div>
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span data-crumb>All</span></nav>
+    <h1 class="display" data-shop-title>The <em>Collection</em></h1>
+    <p>Drop 01 — The Burning Rose. Heavyweight hoodies, statement tees and embroidered beanies. Limited quantities, no restocks.</p>
+  </div>
+</section>
+<div class="toolbar">
+  <div class="wrap toolbar__inner">
+    <div class="chips" role="group" aria-label="Filter by category"></div>
+  </div>
+</div>
+<section class="wrap" style="padding-bottom:90px" aria-label="Products">
+  <div class="shopbar">
+    <p class="result-count" aria-live="polite"></p>
+    <label class="sort"><span class="sr-only">Sort by</span>
+      <select id="sort">
+        <option value="featured">Sort: Featured</option>
+        <option value="low">Price: Low → High</option>
+        <option value="high">Price: High → Low</option>
+        <option value="az">Name: A → Z</option>
+      </select>
+    </label>
+  </div>
+  <div class="grid grid--4"></div>
+</section>
+<section class="section section--dark news" aria-labelledby="news-title">
+  <div class="wrap reveal">
+    <span class="eyebrow">The Quiet List</span>
+    <h2 id="news-title" class="display">Hear it <em>first.</em></h2>
+    <p>Drops sell out in silence. Join the list for early access, private restocks and 10% off your first order.</p>
+    <form data-news>
+      <label class="sr-only" for="news-email">Email address</label>
+      <input id="news-email" type="email" placeholder="Your email address" required autocomplete="email">
+      <button class="btn btn--light" type="submit">Subscribe</button>
+    </form>
+    <small>No spam. Unsubscribe anytime.</small>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/img/logo-white.webp" alt="Quiet Khaos" width="1152" height="140" loading="lazy">
+        <p>Streetwear for the loud minds that dress quietly. Heavyweight pieces, limited runs, made to be lived in.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2Zm0 7.9a3.1 3.1 0 1 1 0-6.2 3.1 3.1 0 0 1 0 6.2ZM17 6a1.1 1.1 0 1 0 0 2.2A1.1 1.1 0 0 0 17 6Z"/><path d="M12 2.5c-2.6 0-2.9 0-3.9.1-3.5.2-5.4 2.1-5.6 5.6-.1 1-.1 1.3-.1 3.8s0 2.9.1 3.9c.2 3.5 2.1 5.4 5.6 5.6 1 .1 1.3.1 3.9.1s2.9 0 3.9-.1c3.5-.2 5.4-2.1 5.6-5.6.1-1 .1-1.3.1-3.9s0-2.8-.1-3.8c-.2-3.5-2.1-5.4-5.6-5.6-1-.1-1.3-.1-3.9-.1Zm0 1.7c2.5 0 2.8 0 3.8.1 2.6.1 3.7 1.3 3.8 3.8.1 1 .1 1.3.1 3.8s0 2.8-.1 3.8c-.1 2.5-1.3 3.7-3.8 3.8-1 .1-1.3.1-3.8.1s-2.8 0-3.8-.1c-2.6-.1-3.7-1.3-3.8-3.8-.1-1-.1-1.3-.1-3.8s0-2.8.1-3.8c.1-2.5 1.3-3.7 3.8-3.8 1-.1 1.3-.1 3.8-.1Z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.6 2.5h-3.1v12.6a2.7 2.7 0 1 1-2.7-2.7c.3 0 .6 0 .8.1V9.3a5.9 5.9 0 1 0 5 5.8V8.7a7.5 7.5 0 0 0 4.4 1.4V7a4.4 4.4 0 0 1-4.4-4.5Z"/></svg></a>
+          <a href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 0 0-3.5 18.3c-.1-.8-.1-2 0-2.9l1.2-5s-.3-.6-.3-1.5c0-1.4.8-2.5 1.8-2.5.9 0 1.3.7 1.3 1.4 0 .9-.6 2.2-.8 3.4-.2 1 .5 1.9 1.6 1.9 1.9 0 3.3-2 3.3-4.9 0-2.5-1.8-4.3-4.4-4.3-3 0-4.8 2.3-4.8 4.6 0 .9.4 1.9.8 2.4.1.1.1.2.1.3l-.3 1.2c0 .2-.2.3-.4.2-1.4-.6-2.2-2.6-2.2-4.2 0-3.4 2.5-6.6 7.2-6.6 3.8 0 6.7 2.7 6.7 6.3 0 3.7-2.4 6.8-5.6 6.8-1.1 0-2.2-.6-2.5-1.3l-.7 2.6c-.2 1-.9 2.2-1.4 2.9A9.5 9.5 0 1 0 12 2.5Z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__cols">
+        <div><h4>Shop</h4><ul>
+          <li><a href="collection.html">Shop All</a></li>
+          <li><a href="collection.html?c=hoodies">Hoodies</a></li>
+          <li><a href="collection.html?c=tees">Tees</a></li>
+          <li><a href="collection.html?c=beanies">Beanies</a></li>
+        </ul></div>
+        <div><h4>Help</h4><ul>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns &amp; Exchanges</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul></div>
+        <div><h4>Brand</h4><ul>
+          <li><a href="index.html#story">Our Story</a></li>
+          <li><a href="#">Care Guide</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Quiet Khaos. All rights reserved.</span>
+      <span>Loud in silence.</span>
+    </div>
+    <div class="footer__mega" aria-hidden="true">Quiet Khaos</div>
+  </div>
+</footer>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
